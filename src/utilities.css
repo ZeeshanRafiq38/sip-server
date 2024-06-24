@@ -1,0 +1,40 @@
+.btn-secondary {
+    @apply bg-pure px-4 py-2 border-primary border rounded-md text-primary font-semibold cursor-pointer transition-all;
+}
+.btn-secondary:hover {
+    @apply bg-primary text-pure;
+}
+
+.btn-primary {
+    @apply bg-primary  px-4 py-2 border-primary border rounded-md text-pure font-semibold transition-all disabled:cursor-not-allowed;
+}
+.btn-primary:hover {
+    @apply bg-primaryHover;
+}
+
+.sidemenu-item {
+    @apply px-2 py-1 text-lg cursor-pointer hover:text-primary transition-all;
+}
+.active {
+    background-color: #fed7aa;
+    color: var(--primary);
+}
+.line {
+    border-left: 4px solid var(--primary);
+}
+
+.drop-active {
+    color: var(--primary);
+}
+.dropMenu-item {
+    @apply pl-16 py-1;
+}
+.dot {
+    @apply bg-gray h-2 w-2 rounded-full;
+}
+.dot-active {
+    @apply bg-primary;
+}
+.loading-center {
+    @apply flex items-center justify-center;
+}
